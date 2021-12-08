@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2? family = Oswald: wght @ 600 & display = swap');
+
+.menu{
+    padding-top: 6px;
+    margin-bottom: 20px;
+}
+.menu ul{
+    list-style-type: none;
+    padding: 0;
+    background-color: #4169E1;
+}
+
+.logo{
+    font-size: 24px;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration:none;
+}
+.menu ul li{
+    position: relative;
+    display: inline-block;
+}
+.menu ul li a{
+    color: white;
+    font-size: 15px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    transition: background 1s;
+}
+.menu ul li a:hover{
+    background-color: white;
+    color: #6959CD;
+}
+
+.menu ul ul{
+    display: none;
+    position: absolute;
+    opacity: 0;
+}
+.menu ul li:hover ul{
+    display: block;
+    opacity: 1;
+}
+.menu ul ul{
+    width: 150px;
+}
+.menu ul ul li a{
+    display: block;
+}
+.sair{
+    border-radius: 15px;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: 16px;
+    padding: 110px;
+    cursor: pointer;
+    text-align: left;
+    width: 40px;
+    transition: background-color 1.5s;
+    text-decoration:none;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Oswald';
+    height: 9vh;
+    background-color: #4169E1;
+    color: white;
+}
+

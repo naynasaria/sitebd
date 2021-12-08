@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2? family = Oswald: wght @ 600 & display = swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2? family = Oswald: wght @ 600 & display = swap');
+
+body{
+    font-family: 'Oswald', sans-serif;
+        background-image: url(herois.png);
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+}
+
+.contato{
+    width: 100%;
+    height: 500px;
+    max-width: 600px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    flex: 2 0 auto;
+}
+
+.field{
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #4169E1;
+    cursor: pointer;
+    transition: background-color 1s;
+    border-radius: 5px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+}
+
+textarea{
+    height: 150px;
+    text-align: left;
+    font-size: 12px;
+}
+
+.botao{
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    padding: 10px 30px;
+    border: 1px solid #4169E1;
+    cursor: pointer;
+    width: 155px;
+    text-align: center;
+    align-self: center;
+    transition: background-color 1.5s;
+}
+
+.botao:hover{
+    background-color: #4169E1;
+    color: white;
+}
