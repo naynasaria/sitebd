@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2? family = Oswald: wght @ 600 & display = swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #4169E1;
+}
+.content{
+    background-color: black;
+    border-radius: 15px;
+    width: 80%;
+    height: 62.5%;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.second-content{
+    display: flex;
+}
+.content::before{
+    content: "";
+    position: absolute;
+    background-image: url(avengers.jpg);
+    background-color: #4169E1;
+    opacity : 0.8;
+    width: 50%;
+    height: 100%;
+}
+.title{
+    color: #4169E1;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.title-primary{
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+.description{
+    font-size: 18px;
+    font-weight: 300;
+    color:white;
+    line-height: 35px;
+    text-shadow: black 0.2em 0.1em 0.2em;
+    
+}
+
+.btn-primary{
+    border-radius: 15px;
+    background-color: transparent;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: 16px;
+    padding: 10px 50px;
+    border: 1px solid white;
+    transition: background-color 1.5s;
+    
+}
+.btn{
+    border-radius: 15px;
+    background-color: transparent;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: 16px;
+    padding: 10px 50px;
+    border: 1px solid #4169E1;
+    cursor: pointer;
+    width: 155px;
+    text-align: center;
+    align-self: center;
+    transition: background-color 1.5s;
+}
+.btn-primary:hover{
+    background-color: #4169E1;
+    color: white;
+}
+.btn:hover{
+    background-color: #4169E1;
+    color: white;
+}
+
+.firstcontent{
+    display: none;
+}
+
+.primeira-coluna{
+    text-align: center;
+    flex: 1 0 auto;
+    z-index: 10;
+}
+.segunda-coluna{
+    flex: 2 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.form input {
+    height: 40px;
+    border: none;
+    background-color: white;
+    margin: 14px;
+
+}
+.form1{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+
+.form1 input {
+    height: 32px;
+    border: none;
+    background-color: white;
+    margin: 8px;
+
+}
+
+.password{
+    color: whitesmoke;
+    font-size: 14px;
+    margin: 15px 0;
+}
+
